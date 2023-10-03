@@ -29,4 +29,4 @@ if __name__ == "__main__":
   input_file = "../data/input_data.csv"
   df = read_csv(input_file)
   df_transformed = data_pipeline(df)
-  load_results(df_transformed)
+  load_results(df_transformed) 
